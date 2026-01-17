@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Inter:wght@400;900&display=swap');
+
 :root {
     --primary: #000000;
     --secondary: #ffffff;
@@ -185,9 +187,19 @@ ul {
     overflow: hidden;
     padding-top: 100px;
     padding-bottom: 10vh;
-    background: url('/assets/hero-gradient.png') no-repeat center center;
-    background-size: 150% 150%;
-    animation: liquidMove 15s ease-in-out infinite alternate;
+    z-index: 0;
+}
+
+.hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    transform: scale(1.2);
+    /* Zoom to remove potential black borders in video */
 }
 
 @keyframes liquidMove {
@@ -238,13 +250,13 @@ ul {
 .hero-title {
     font-size: clamp(3.5rem, 9vw, 8rem);
     /* Slightly reduced */
-    line-height: 1.1;
-    font-weight: 900;
+    line-height: 0.9;
+    font-weight: 400;
     color: white;
     text-transform: uppercase;
     margin-bottom: 40px;
-    letter-spacing: -0.02em;
-    font-family: 'Inter', sans-serif;
+    letter-spacing: -0.01em;
+    font-family: 'Impact', 'Anton', sans-serif;
     text-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     width: 100%;
     /* Flex column to stack typing lines */
@@ -2930,6 +2942,7 @@ ul {
         height: 500px;
     }
 }
+
 /* Phase 1 Initial State */
 .card-vibrant.fase-1 {
     opacity: 0;
