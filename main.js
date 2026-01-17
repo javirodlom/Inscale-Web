@@ -11,21 +11,21 @@ const testimonialsData = {
     author: "Carlos Mendoza",
     role: "CCO, TechVision Spain",
     company: "TECHVISION",
-    image: "./assets/worker-hero.png" // Placeholder
+    image: "/assets/worker-hero.png" // Placeholder
   },
   'Ecommerce': {
     quote: "Nuestro ecommerce tenía tráfico pero no convertía. Inscale rediseñó la experiencia de usuario completa y optimizó el checkout. Pasamos de un 0.8% a un 2.4% de conversión en semanas. El ROI de la inversión ha sido espectacular.",
     author: "Sofia L.",
     role: "Founder, Glow & Co",
     company: "GLOW & CO",
-    image: "./assets/ecommerce1.jpg"
+    image: "/assets/ecommerce1.jpg"
   },
   'Estrategia': {
     quote: "Necesitábamos reposicionar nuestra marca en el mercado premium. La consultoría estratégica de Inscale nos dio la claridad y la hoja de ruta exacta. Hoy no solo vendemos más, sino que vendemos a un ticket mucho más alto con la misma inversión.",
     author: "Marc Soler",
     role: "CEO, Horizon Groups",
     company: "HORIZON",
-    image: "./assets/Estrategia.jpg"
+    image: "/assets/Estrategia.jpg"
   }
 };
 
@@ -737,9 +737,9 @@ const renderHome = () => {
                     <!-- Duplicate items 3 times for smooth loop -->
                      ${Array(20).fill(0).map((_, i) => {
     const logos = [
-      './assets/Logo Meta.avif', './assets/Logo Ads.avif', './assets/N8n Logo.png',
-      './assets/LinkedIn logo.png', './assets/clickup logo.jpg', './assets/Hubspot logo.png',
-      './assets/Open AI logo.webp', './assets/Tiktok logo.png', './assets/Instagram logo.avif'
+      '/assets/Logo Meta.avif', '/assets/Logo Ads.avif', '/assets/N8n Logo.png',
+      '/assets/LinkedIn logo.png', '/assets/clickup logo.jpg', '/assets/Hubspot logo.png',
+      '/assets/Open AI logo.webp', '/assets/Tiktok logo.png', '/assets/Instagram logo.avif'
     ];
     const logo = logos[i % logos.length];
     return `<div class="marquee-item"><img src="${logo}" alt="Logo"></div>`;
@@ -750,9 +750,9 @@ const renderHome = () => {
                 <div class="marquee-row move-right">
                      ${Array(20).fill(0).map((_, i) => {
     const logos = [
-      './assets/Google Partner.png', './assets/Shopify.png', './assets/Klaviyo.png',
-      './assets/Apollo emblem.jpg', './assets/Logo Meta.avif', './assets/Logo Ads.avif',
-      './assets/N8n Logo.png', './assets/LinkedIn logo.png', './assets/clickup logo.jpg'
+      '/assets/Google Partner.png', '/assets/Shopify.png', '/assets/Klaviyo.png',
+      '/assets/Apollo emblem.jpg', '/assets/Logo Meta.avif', '/assets/Logo Ads.avif',
+      '/assets/N8n Logo.png', '/assets/LinkedIn logo.png', '/assets/clickup logo.jpg'
     ];
     // Placeholder logos if actuals are missing, reusing existing ones but shuffled
     const logo = logos[(i + 3) % logos.length];
@@ -772,7 +772,7 @@ const renderHome = () => {
                 <div class="results-grid">
                     <!-- Case 1: Pharma -->
                     <div class="result-card">
-                        <img src="./assets/worker-hero.png" alt="Case Study Pharma">
+                        <img src="/assets/worker-hero.png" alt="Case Study Pharma">
                         <div class="result-overlay">
                             <div class="result-info">
                                 <p>SECTOR PHARMA</p>
@@ -783,7 +783,7 @@ const renderHome = () => {
 
                     <!-- Case 2: Ecommerce -->
                     <div class="result-card">
-                        <img src="./assets/ecommerce1.jpg" alt="Case Study Ecommerce">
+                        <img src="/assets/ecommerce1.jpg" alt="Case Study Ecommerce">
                         <div class="result-overlay">
                             <div class="result-info">
                                 <p>ECOMMERCE & RETAIL</p>
@@ -794,7 +794,7 @@ const renderHome = () => {
 
                     <!-- Case 3: Strategy -->
                     <div class="result-card">
-                        <img src="./assets/Estrategia.jpg" alt="Case Study Strategy">
+                        <img src="/assets/Estrategia.jpg" alt="Case Study Strategy">
                         <div class="result-overlay">
                             <div class="result-info">
                                 <p>CONSULTORÍA ESTRATÉGICA</p>
@@ -817,18 +817,18 @@ const renderHome = () => {
             
             <div class="floating-logos-container">
                 <!-- Left Side -->
-                <div class="floating-logo-icon"><img src="./assets/Logo Meta.avif" alt="Meta"></div>
-                <div class="floating-logo-icon"><img src="./assets/Logo Ads.avif" alt="Google"></div>
-                <div class="floating-logo-icon"><img src="./assets/N8n Logo.png" alt="N8n"></div>
-                <div class="floating-logo-icon"><img src="./assets/LinkedIn logo.png" alt="LinkedIn"></div>
-                <div class="floating-logo-icon"><img src="./assets/clickup logo.jpg" alt="ClickUp"></div>
+                <div class="floating-logo-icon"><img src="/assets/Logo Meta.avif" alt="Meta"></div>
+                <div class="floating-logo-icon"><img src="/assets/Logo Ads.avif" alt="Google"></div>
+                <div class="floating-logo-icon"><img src="/assets/N8n Logo.png" alt="N8n"></div>
+                <div class="floating-logo-icon"><img src="/assets/LinkedIn logo.png" alt="LinkedIn"></div>
+                <div class="floating-logo-icon"><img src="/assets/clickup logo.jpg" alt="ClickUp"></div>
                 
                 <!-- Right Side -->
-                <div class="floating-logo-icon"><img src="./assets/Hubspot logo.png" alt="Hubspot"></div>
-                <div class="floating-logo-icon"><img src="./assets/Open AI logo.webp" alt="OpenAI"></div>
-                <div class="floating-logo-icon"><img src="./assets/Tiktok logo.png" alt="TikTok"></div>
-                <div class="floating-logo-icon"><img src="./assets/Instagram logo.avif" alt="Instagram"></div>
-                <div class="floating-logo-icon"><img src="./assets/Apollo emblem.jpg" alt="Apollo"></div>
+                <div class="floating-logo-icon"><img src="/assets/Hubspot logo.png" alt="Hubspot"></div>
+                <div class="floating-logo-icon"><img src="/assets/Open AI logo.webp" alt="OpenAI"></div>
+                <div class="floating-logo-icon"><img src="/assets/Tiktok logo.png" alt="TikTok"></div>
+                <div class="floating-logo-icon"><img src="/assets/Instagram logo.avif" alt="Instagram"></div>
+                <div class="floating-logo-icon"><img src="/assets/Apollo emblem.jpg" alt="Apollo"></div>
             </div>
         </div>
 

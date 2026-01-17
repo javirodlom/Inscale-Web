@@ -185,7 +185,7 @@ ul {
     overflow: hidden;
     padding-top: 100px;
     padding-bottom: 10vh;
-    background: url('./assets/hero-gradient.png') no-repeat center center;
+    background: url('/assets/hero-gradient.png') no-repeat center center;
     background-size: 150% 150%;
     animation: liquidMove 15s ease-in-out infinite alternate;
 }
@@ -1056,7 +1056,7 @@ ul {
 .card-vibrant.fase-4.v1,
 .card-vibrant.fase-4.v2,
 .card-vibrant.fase-4.v3 {
-    background: url('./assets/hero-gradient.png') no-repeat center center;
+    background: url('/assets/hero-gradient.png') no-repeat center center;
     background-size: 150% 150%;
     animation: liquidMove 15s ease-in-out infinite alternate;
     box-shadow: 0 20px 40px rgba(45, 99, 255, 0.25);
@@ -2016,7 +2016,7 @@ ul {
 }
 
 .partner-contact-form-wrapper {
-    background: url('./assets/hero-gradient.png') no-repeat center center;
+    background: url('/assets/hero-gradient.png') no-repeat center center;
     background-size: 150% 150%;
     animation: liquidMove 15s ease-in-out infinite alternate;
     padding: 80px;
@@ -2564,7 +2564,7 @@ ul {
 
 .text-blue-fluid {
     color: transparent !important;
-    background: url('./assets/hero-gradient.png') no-repeat center center;
+    background: url('/assets/hero-gradient.png') no-repeat center center;
     background-size: 150% 150%;
     -webkit-background-clip: text;
     background-clip: text;
@@ -2574,7 +2574,7 @@ ul {
 
 .intro-highlight {
     color: transparent;
-    background: url('./assets/hero-gradient.png') no-repeat center center;
+    background: url('/assets/hero-gradient.png') no-repeat center center;
     background-size: 150% 150%;
     -webkit-background-clip: text;
     background-clip: text;
@@ -2600,7 +2600,7 @@ ul {
 
 .gradient-pill-visual {
     height: 400px;
-    background: url('./assets/hero-gradient.png') no-repeat center center;
+    background: url('/assets/hero-gradient.png') no-repeat center center;
     background-size: 150% 150%;
     animation: liquidMove 15s ease-in-out infinite alternate;
     border-top-right-radius: 200px;
@@ -2759,7 +2759,7 @@ ul {
 
 .specialise-title span.blue-highlight {
     color: transparent;
-    background: url('./assets/hero-gradient.png') no-repeat center center;
+    background: url('/assets/hero-gradient.png') no-repeat center center;
     background-size: 150% 150%;
     -webkit-background-clip: text;
     background-clip: text;
